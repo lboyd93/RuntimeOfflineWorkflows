@@ -2,6 +2,21 @@
   "version": 3,
   "targets": {
     ".NETFramework,Version=v4.6.1": {
+      "Esri.ArcGISRuntime/100.4.0": {
+        "type": "package",
+        "dependencies": {
+          "Esri.ArcGISRuntime.WPF": "[100.4.0]"
+        },
+        "compile": {
+          "lib/net461/_._": {}
+        },
+        "runtime": {
+          "lib/net461/_._": {}
+        },
+        "build": {
+          "build/net461/_._": {}
+        }
+      },
       "Esri.ArcGISRuntime.WPF/100.4.0": {
         "type": "package",
         "frameworkAssemblies": [
@@ -139,6 +154,21 @@
       }
     },
     ".NETFramework,Version=v4.6.1/win": {
+      "Esri.ArcGISRuntime/100.4.0": {
+        "type": "package",
+        "dependencies": {
+          "Esri.ArcGISRuntime.WPF": "[100.4.0]"
+        },
+        "compile": {
+          "lib/net461/_._": {}
+        },
+        "runtime": {
+          "lib/net461/_._": {}
+        },
+        "build": {
+          "build/net461/_._": {}
+        }
+      },
       "Esri.ArcGISRuntime.WPF/100.4.0": {
         "type": "package",
         "frameworkAssemblies": [
@@ -276,6 +306,21 @@
       }
     },
     ".NETFramework,Version=v4.6.1/win-x64": {
+      "Esri.ArcGISRuntime/100.4.0": {
+        "type": "package",
+        "dependencies": {
+          "Esri.ArcGISRuntime.WPF": "[100.4.0]"
+        },
+        "compile": {
+          "lib/net461/_._": {}
+        },
+        "runtime": {
+          "lib/net461/_._": {}
+        },
+        "build": {
+          "build/net461/_._": {}
+        }
+      },
       "Esri.ArcGISRuntime.WPF/100.4.0": {
         "type": "package",
         "frameworkAssemblies": [
@@ -413,6 +458,21 @@
       }
     },
     ".NETFramework,Version=v4.6.1/win-x86": {
+      "Esri.ArcGISRuntime/100.4.0": {
+        "type": "package",
+        "dependencies": {
+          "Esri.ArcGISRuntime.WPF": "[100.4.0]"
+        },
+        "compile": {
+          "lib/net461/_._": {}
+        },
+        "runtime": {
+          "lib/net461/_._": {}
+        },
+        "build": {
+          "build/net461/_._": {}
+        }
+      },
       "Esri.ArcGISRuntime.WPF/100.4.0": {
         "type": "package",
         "frameworkAssemblies": [
@@ -551,6 +611,29 @@
     }
   },
   "libraries": {
+    "Esri.ArcGISRuntime/100.4.0": {
+      "sha512": "5NP0oHcbn6xRjl0IbvDWUiKLwMjKhCtbo7x1DJg6CzcJKfRRKLXyIARMxjc3Q/DqxvLYxq00V1Qvu5ZJ0ZCHpg==",
+      "type": "package",
+      "path": "esri.arcgisruntime/100.4.0",
+      "files": [
+        ".signature.p7s",
+        "build/MonoAndroid10/_._",
+        "build/Xamarin.iOS10/_._",
+        "build/net461/_._",
+        "build/netstandard2.0/Esri.ArcGISRuntime.targets",
+        "build/uap10.0/_._",
+        "esri.arcgisruntime.100.4.0.nupkg.sha512",
+        "esri.arcgisruntime.nuspec",
+        "legal/Copyright_and_Trademarks.pdf",
+        "legal/EULA.pdf",
+        "lib/MonoAndroid10/_._",
+        "lib/Xamarin.iOS10/_._",
+        "lib/net461/_._",
+        "lib/netstandard2.0/Esri.ArcGISRuntime.dll",
+        "lib/netstandard2.0/Esri.ArcGISRuntime.xml",
+        "lib/uap10.0/_._"
+      ]
+    },
     "Esri.ArcGISRuntime.WPF/100.4.0": {
       "sha512": "3xbbv2rsLo3xyyGdzOIXEneHDQiai3N/u1E+ij0NkH58SmENwSCNDul6lbYotTCAkkUnE1XH5bJwDIEprfWCZw==",
       "type": "package",
@@ -783,6 +866,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETFramework,Version=v4.6.1": [
+      "Esri.ArcGISRuntime >= 100.4.0",
       "Esri.ArcGISRuntime.WPF >= 100.4.0"
     ]
   },
@@ -792,11 +876,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\LaurenCDrive\\TL\\Readiness\\Trainings\\Runtime Brown Bag\\OnDemand\\OnDemand\\OnDemand.csproj",
+      "projectUniqueName": "C:\\LaurenCDrive\\TL\\Readiness\\Trainings\\RT_Offline_Workflows\\OnDemand\\OnDemand\\OnDemand.csproj",
       "projectName": "OnDemand",
-      "projectPath": "C:\\LaurenCDrive\\TL\\Readiness\\Trainings\\Runtime Brown Bag\\OnDemand\\OnDemand\\OnDemand.csproj",
+      "projectPath": "C:\\LaurenCDrive\\TL\\Readiness\\Trainings\\RT_Offline_Workflows\\OnDemand\\OnDemand\\OnDemand.csproj",
       "packagesPath": "C:\\Users\\laur8722\\.nuget\\packages\\",
-      "outputPath": "C:\\LaurenCDrive\\TL\\Readiness\\Trainings\\Runtime Brown Bag\\OnDemand\\OnDemand\\obj\\",
+      "outputPath": "C:\\LaurenCDrive\\TL\\Readiness\\Trainings\\RT_Offline_Workflows\\OnDemand\\OnDemand\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
@@ -821,6 +905,10 @@
     "frameworks": {
       "net461": {
         "dependencies": {
+          "Esri.ArcGISRuntime": {
+            "target": "Package",
+            "version": "[100.4.0, )"
+          },
           "Esri.ArcGISRuntime.WPF": {
             "target": "Package",
             "version": "[100.4.0, )"
