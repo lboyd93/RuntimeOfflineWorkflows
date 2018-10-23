@@ -23,8 +23,9 @@ namespace DesktopPattern
     public partial class MainWindow : Window
     {
         //file paths to the packages
-        string pathToOutputPackage = @"C:\LaurenCDrive\TL\Readiness\Trainings\RT_Offline_Workflows\MMPKs\Map.mmpk";
-        string pathToUnpackedPackage = "";
+        //string pathToOutputPackage = @"C:\LaurenCDrive\TL\Readiness\Trainings\RT_Offline_Workflows\MMPKs\Map.mmpk";
+        string pathToOutputPackage = @"C:\LaurenCDrive\TL\Readiness\Trainings\RT_Offline_Workflows\MMPKs\Raster.mmpk";
+        string pathToUnpackedPackage = @"C:\LaurenCDrive\TL\Readiness\Trainings\RT_Offline_Workflows\MMPKs\RasterUnpacked.mmpk";
 
         public MainWindow()
         {

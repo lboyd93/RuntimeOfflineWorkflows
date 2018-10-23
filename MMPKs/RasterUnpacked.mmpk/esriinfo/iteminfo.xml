@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ESRI_ItemInformation Culture='en-US'>
+<name>Raster</name>
+<guid>5490759A-CA67-4E5F-AF11-820A1152BE1C</guid>
+<version>2.2</version>
+<created>1540331250</created>
+<modified>1540331250</modified>
+<catalogpath></catalogpath>
+<snippet>SAmple mmpk raster</snippet>
+<description>SAmple mmpk raster</description>
+<summary>SAmple mmpk raster</summary>
+<title>Map</title>
+<tags>SAmple mmpk; raster</tags>
+<type>Mobile Map Package</type>
+<typekeywords>
+<typekeyword>Mobile Map Package</typekeyword>
+<typekeyword>Map</typekeyword>
+<typekeyword>2D</typekeyword>
+<typekeyword>ArcGIS Pro</typekeyword>
+<typekeyword>mmpk</typekeyword>
+<typekeyword>Mobile</typekeyword>
+</typekeywords>
+<thumbnail>thumbnail/thumbnail.png</thumbnail>
+<documentation></documentation>
+<url></url>
+<extent>
+<xmin>174.740178774315</xmin>
+<ymin>-41.312979828754</ymin>
+<xmax>174.814016853358</xmax>
+<ymax>-41.2753298064635</ymax>
+</extent>
+<spatialreference>NZGD_2000_Transverse_Mercator</spatialreference>
+<minScale>29946.7905000055</minScale>
+<maxScale>1128.4971760000001</maxScale>
+<datalastModifiedTime>1540331250</datalastModifiedTime>
+<accessinformation></accessinformation>
+<licenseinfo></licenseinfo>
+</ESRI_ItemInformation>

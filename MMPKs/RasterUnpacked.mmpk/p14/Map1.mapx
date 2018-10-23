@@ -1,0 +1,521 @@
+{
+  "type" : "CIMMapDocument",
+  "mapDefinition" : {
+    "type" : "CIMMap",
+    "name" : "Map1",
+    "uRI" : "CIMPATH=map1/map1.xml",
+    "sourceModifiedTime" : {
+      "type" : "TimeInstant"
+    },
+    "metadataURI" : "CIMPATH=Metadata/a0e0a68a50a9e72f9c2b2887761fcdb4.xml",
+    "useSourceMetadata" : true,
+    "illumination" : {
+      "type" : "CIMIlluminationProperties",
+      "ambientLight" : 75,
+      "sunPositionX" : -0.61237243569579003,
+      "sunPositionY" : 0.61237243569579003,
+      "sunPositionZ" : 0.5,
+      "illuminationSource" : "AbsoluteSunPosition",
+      "sunAzimuth" : 315,
+      "sunAltitude" : 30,
+      "showStars" : true
+    },
+    "layers" : [
+      "CIMPATH=map1/slope.xml"
+    ],
+    "defaultViewingMode" : "Map",
+    "mapType" : "Map",
+    "datumTransforms" : [
+      {
+        "type" : "CIMDatumTransform",
+        "forward" : true,
+        "geoTransformation" : {
+          "geoTransforms" : [
+            {
+              "wkid" : 1565,
+              "latestWkid" : 1565,
+              "transformForward" : true,
+              "name" : "NZGD_2000_To_WGS_1984_1"
+            }
+          ]
+        }
+      },
+      {
+        "type" : "CIMDatumTransform",
+        "forward" : false,
+        "geoTransformation" : {
+          "geoTransforms" : [
+            {
+              "wkid" : 1565,
+              "latestWkid" : 1565,
+              "transformForward" : true,
+              "name" : "NZGD_2000_To_WGS_1984_1"
+            }
+          ]
+        }
+      }
+    ],
+    "defaultExtent" : {
+      "xmin" : 1745741.43829999957,
+      "ymin" : 5425036.09999999963,
+      "xmax" : 1751843.56170000043,
+      "ymax" : 5429092.90000000037,
+      "spatialReference" : {
+        "wkt" : "PROJCS[\"NZGD_2000_Transverse_Mercator\",GEOGCS[\"GCS_NZGD_2000\",DATUM[\"D_NZGD_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",1600000.0],PARAMETER[\"False_Northing\",10000000.0],PARAMETER[\"Central_Meridian\",173.0],PARAMETER[\"Scale_Factor\",0.9996],PARAMETER[\"Latitude_Of_Origin\",0.0],UNIT[\"Meter\",1.0]]"
+      }
+    },
+    "elevationSurfaces" : [
+      {
+        "type" : "CIMMapElevationSurface",
+        "elevationMode" : "BaseGlobeSurface",
+        "name" : "Ground",
+        "verticalExaggeration" : 1,
+        "mapElevationID" : "{09953214-F6FF-4FF8-9F5A-26121EE3359F}",
+        "color" : {
+          "type" : "CIMRGBColor",
+          "values" : [
+            255,
+            255,
+            255,
+            100
+          ]
+        },
+        "surfaceTINShadingMode" : "Smooth",
+        "visibility" : true
+      }
+    ],
+    "generalPlacementProperties" : {
+      "type" : "CIMMaplexGeneralPlacementProperties",
+      "invertedLabelTolerance" : 2,
+      "unplacedLabelColor" : {
+        "type" : "CIMRGBColor",
+        "values" : [
+          255,
+          0,
+          0,
+          100
+        ]
+      },
+      "keyNumberGroups" : [
+        {
+          "type" : "CIMMaplexKeyNumberGroup",
+          "delimiterCharacter" : ".",
+          "horizontalAlignment" : "Left",
+          "maximumNumberOfLines" : 20,
+          "minimumNumberOfLines" : 2,
+          "name" : "Default",
+          "numberResetType" : "None"
+        }
+      ],
+      "placementQuality" : "High"
+    },
+    "snappingProperties" : {
+      "type" : "CIMSnappingProperties",
+      "xYTolerance" : 10,
+      "xYToleranceUnit" : "SnapXYToleranceUnitPixel",
+      "snapToSketchEnabled" : true,
+      "snapRequestType" : "SnapRequestType_GeometricAndVisualSnapping"
+    },
+    "spatialReference" : {
+      "wkt" : "PROJCS[\"NZGD_2000_Transverse_Mercator\",GEOGCS[\"GCS_NZGD_2000\",DATUM[\"D_NZGD_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",1600000.0],PARAMETER[\"False_Northing\",10000000.0],PARAMETER[\"Central_Meridian\",173.0],PARAMETER[\"Scale_Factor\",0.9996],PARAMETER[\"Latitude_Of_Origin\",0.0],UNIT[\"Meter\",1.0]]"
+    },
+    "timeDisplay" : {
+      "type" : "CIMMapTimeDisplay",
+      "defaultTimeIntervalUnits" : "esriTimeUnitsUnknown",
+      "timeValue" : {
+        "type" : "TimeExtent",
+        "start" : null,
+        "end" : null,
+        "empty" : false
+      },
+      "timeRelation" : "esriTimeRelationOverlaps"
+    },
+    "colorModel" : "RGB",
+    "scaleDisplayFormat" : "Value",
+    "useServiceLayerIDs" : true
+  },
+  "layerDefinitions" : [
+    {
+      "type" : "CIMRasterLayer",
+      "name" : "slope",
+      "uRI" : "CIMPATH=map1/slope.xml",
+      "sourceModifiedTime" : {
+        "type" : "TimeInstant"
+      },
+      "useSourceMetadata" : true,
+      "description" : "slope",
+      "layerElevation" : {
+        "type" : "CIMLayerElevationSurface",
+        "mapElevationID" : "{09953214-F6FF-4FF8-9F5A-26121EE3359F}"
+      },
+      "expanded" : true,
+      "layerType" : "Operational",
+      "showLegends" : true,
+      "visibility" : true,
+      "displayCacheType" : "Permanent",
+      "maxDisplayCacheAge" : 5,
+      "showPopups" : true,
+      "serviceLayerID" : 0,
+      "refreshRate" : -1,
+      "refreshRateUnit" : "esriTimeUnitsSeconds",
+      "dataConnection" : {
+        "type" : "CIMStandardDataConnection",
+        "workspaceConnectionString" : "DATABASE=..\\commondata\\raster_data",
+        "workspaceFactory" : "Raster",
+        "dataset" : "slope.tif",
+        "datasetType" : "esriDTAny"
+      },
+      "colorizer" : {
+        "type" : "CIMRasterStretchColorizer",
+        "resamplingType" : "NearestNeighbor",
+        "noDataColor" : {
+          "type" : "CIMRGBColor",
+          "values" : [
+            255,
+            255,
+            255,
+            0
+          ]
+        },
+        "backgroundColor" : {
+          "type" : "CIMRGBColor",
+          "values" : [
+            255,
+            255,
+            255,
+            0
+          ]
+        },
+        "colorRamp" : {
+          "type" : "CIMPolarContinuousColorRamp",
+          "colorSpace" : {
+            "type" : "CIMICCColorSpace",
+            "url" : "Default RGB"
+          },
+          "fromColor" : {
+            "type" : "CIMHSVColor",
+            "values" : [
+              -1,
+              0,
+              0,
+              100
+            ]
+          },
+          "toColor" : {
+            "type" : "CIMHSVColor",
+            "values" : [
+              -1,
+              0,
+              100,
+              100
+            ]
+          },
+          "interpolationSpace" : "HSV",
+          "polarDirection" : "Auto"
+        },
+        "colorScheme" : "Black to White",
+        "customStretchMax" : 1,
+        "gammaValue" : 1,
+        "hillshadeZFactor" : 1,
+        "maxPercent" : 0.5,
+        "minPercent" : 0.5,
+        "standardDeviationParam" : 2,
+        "statsType" : "Dataset",
+        "stretchClasses" : [
+          {
+            "type" : "CIMRasterStretchClass",
+            "label" : "0"
+          },
+          {
+            "type" : "CIMRasterStretchClass",
+            "value" : 39.020339965820313
+          },
+          {
+            "type" : "CIMRasterStretchClass",
+            "label" : "78.0407",
+            "value" : 78.040679931640625
+          }
+        ],
+        "stretchStats" : {
+          "type" : "StatsHistogram",
+          "min" : 0,
+          "max" : 78.040679931640625,
+          "mean" : 15.666870861800989,
+          "stddev" : 13.700739163691059,
+          "limitMin" : 0,
+          "limitMax" : 78.040679931640625,
+          "histogram" : [
+            0,
+            12413128497704032,
+            15231340257084980,
+            14691852254419060,
+            13460838721063188,
+            12719042717397548,
+            11512551365981036,
+            10578869288639904,
+            9721205975310788,
+            8930365607766428,
+            8127264149252388,
+            7595132801168276,
+            7375659272811004,
+            6958169125293400,
+            6272774140088288,
+            6026939266146204,
+            5814822392370740,
+            5575731118461980,
+            5426758863180368,
+            5033177843053640,
+            4953480751750720,
+            4764046896269164,
+            4515146749584660,
+            4187162566145720,
+            3983628456049032,
+            3931518819427892,
+            3645222345285864,
+            3571655799467784,
+            3461919035289148,
+            3316012052749956,
+            3157230924692600,
+            3137000124592628,
+            3079372997035132,
+            3015615323992796,
+            2886260814262672,
+            2856834195935440,
+            2838442559480920,
+            2761810740920420,
+            2772232668244648,
+            2725027468011380,
+            2642878158514524,
+            2629390958447876,
+            2569924667244928,
+            2561954958114636,
+            2501875612363204,
+            2501875612363204,
+            2550306921693440,
+            2471222884939004,
+            2522106412463176,
+            2472448994035972,
+            2442409321160256,
+            2442409321160256,
+            2481644812263232,
+            2473675103132940,
+            2460800957614776,
+            2386008302699728,
+            2504327830557140,
+            2406239102799700,
+            2404399939154248,
+            2390299684539116,
+            2441183212063288,
+            2513523648784400,
+            2431374339287544,
+            2479192594069296,
+            2415434921026960,
+            2533754448884372,
+            2406852157348184,
+            2473675103132940,
+            2485323139554136,
+            2560728849017668,
+            2466931503099616,
+            2411756593736056,
+            2503714776008656,
+            2523945576108628,
+            2576668267278252,
+            2528850012496500,
+            2479192594069296,
+            2581572703666124,
+            2527010848851048,
+            2474288157681424,
+            2576668267278252,
+            2457735684872356,
+            2523945576108628,
+            2487162303199588,
+            2492066739587460,
+            2450992084839032,
+            2545402485305568,
+            2614677649284260,
+            2506780048751076,
+            2554598303532828,
+            2452831248484484,
+            2490227575942008,
+            2460800957614776,
+            2466318448551132,
+            2503714776008656,
+            2487775357748072,
+            2482870921360200,
+            2468770666745068,
+            2446700702999644,
+            2426469902899672,
+            2398269393669408,
+            2309376484139228,
+            2382943029957308,
+            2315507029624068,
+            2343707538854332,
+            2310602593236196,
+            2268914883939284,
+            2241327429257504,
+            2226614120093888,
+            2187378628990912,
+            2128525392336448,
+            2121781792303124,
+            2084385464845600,
+            2011431973576004,
+            2058024119260788,
+            2004688373542680,
+            1952578736921540,
+            1961161500600316,
+            1874720809264072,
+            1875946918361040,
+            1818319790803544,
+            1795636772509636,
+            1791345390670248,
+            1695708881106744,
+            1684673899234032,
+            1594554880606884,
+            1533249425758484,
+            1514857789303964,
+            1448034843519208,
+            1398377425092004,
+            1329102261113312,
+            1275766515395204,
+            1257987933489168,
+            1276992624492172,
+            1175838623992312,
+            1118211496434816,
+            1096141532689392,
+            1041579677874316,
+            997439750383468,
+            958204259280492,
+            910386004498740,
+            844789167810952,
+            799423131223136,
+            795131749383748,
+            760187640120160,
+            750991821892900,
+            668842512396044,
+            659033639620300,
+            600793457514320,
+            570140730090120,
+            521096366211400,
+            486765311496296,
+            503317784305364,
+            435881783972124,
+            413811820226700,
+            381319929157048,
+            383772147350984,
+            348828038087396,
+            343923601699524,
+            324305856148036,
+            293653128723836,
+            272809274075380,
+            271583164978412,
+            247674037587536,
+            227443237487564,
+            224377964745144,
+            210277710130012,
+            217634364711820,
+            196790510063364,
+            176559709963392,
+            169816109930068,
+            134872000666480,
+            140389491602836,
+            150811418927064,
+            151424473475548,
+            116480364211960,
+            123837018793768,
+            105445382339248,
+            113415091469540,
+            108510655081668,
+            83375418593824,
+            96862618660472,
+            88892909530180,
+            83988473142308,
+            63757673042336,
+            66822945784756,
+            69888218527176,
+            66209891236272,
+            61305454848400,
+            47818254781752,
+            61305454848400,
+            40461600199944,
+            50883527524172,
+            42300763845396,
+            33718000166620,
+            26361345584812,
+            32491891069652,
+            31265781972684,
+            20230800099972,
+            27587454681780,
+            19617745551488,
+            21456909196940,
+            20230800099972,
+            21456909196940,
+            19004691003004,
+            22683018293908,
+            16552472809068,
+            16552472809068,
+            9195818227260,
+            12874145518164,
+            11034981872712,
+            6743600033324,
+            11648036421196,
+            8582763678776,
+            9195818227260,
+            14713309163616,
+            4291381839388,
+            14100254615132,
+            7969709130292,
+            6130545484840,
+            3678327290904,
+            4291381839388,
+            4904436387872,
+            3678327290904,
+            4904436387872,
+            5517490936356,
+            3678327290904,
+            3065272742420,
+            4291381839388,
+            2452218193936,
+            1839163645452,
+            1226109096968,
+            2452218193936,
+            4291381839388,
+            1839163645452,
+            1839163645452,
+            1226109096968,
+            1839163645452,
+            2452218193936,
+            1226109096968,
+            1839163645452,
+            0,
+            1226109096968,
+            613054548484,
+            0,
+            613054548484,
+            1226109096968,
+            613054548484,
+            0,
+            0,
+            613054548484,
+            0,
+            0,
+            613054548484,
+            613054548484,
+            613054548484
+          ],
+          "nsamples" : 782978,
+          "resolution" : 0.30604188208486521
+        },
+        "stretchType" : "PercentMinimumMaximum"
+      }
+    }
+  ],
+  "binaryReferences" : [
+    {
+      "type" : "CIMBinaryReference",
+      "uRI" : "CIMPATH=Metadata/a0e0a68a50a9e72f9c2b2887761fcdb4.xml",
+      "data" : "<?xml version=\"1.0\"?>\r\n<metadata xml:lang=\"en\"><Esri><CreaDate>20181023</CreaDate><CreaTime>14450900</CreaTime><ArcGISFormat>1.0</ArcGISFormat><SyncOnce>TRUE</SyncOnce></Esri><dataIdInfo><idCitation><resTitle>Map1</resTitle></idCitation></dataIdInfo><Binary><Thumbnail><Data EsriPropertyType=\"PictureX\">/9j/4AAQSkZJRgABAQEAAAAAAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0a\r\nHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIy\r\nMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCACFAMgDAREA\r\nAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA\r\nAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3\r\nODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm\r\np6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA\r\nAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx\r\nBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK\r\nU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3\r\nuLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD3+gAo\r\nAKACgDmNV+IHhfRL57LUNTEVwjbWQQyOQcZx8qnsaAIU+JXhGVEddYTa/QmJx3x3X1oAsR+O/DMw\r\nBXVoQDwC4Zcn0GR1oAgPxI8Ih2Q6wm5SQf3T9uD/AA0AXLbxn4fvN/2bUklKKGYKjEgHpnjr7daA\r\nC78a+HbGBZrjU40jY4B2sefwFAFePx94ZmZlj1MMVxu/dPhcjPJ28cc+1AFST4r+CYiQ+toMf9MZ\r\nP/iaAIB8YfAZbaNfj3enkS//ABNADm+LvgVV3NrqKPUwSj/2WgBn/C4/AQx/xUEfP/TGT/4mgA/4\r\nXJ4A/wChgj/78S//ABNAElr8WfA99eQ2ltr0bzzyLHGvkyDLMcAZK46mgDt6ACgAoAKACgAoAKAC\r\n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\r\noAKACgAoAKAP/9k=</Data></Thumbnail></Binary></metadata>\r\n"
+    }
+  ],
+  "version" : "1.4.0",
+  "build" : "7198"
+}
