@@ -792,11 +792,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\LaurenCDrive\\TL\\Readiness\\Trainings\\Runtime Brown Bag\\DesktopPattern\\DesktopPattern\\DesktopPattern.csproj",
+      "projectUniqueName": "C:\\LaurenCDrive\\TL\\Readiness\\Trainings\\RT_Offline_Workflows\\DesktopPattern\\DesktopPattern\\DesktopPattern.csproj",
       "projectName": "DesktopPattern",
-      "projectPath": "C:\\LaurenCDrive\\TL\\Readiness\\Trainings\\Runtime Brown Bag\\DesktopPattern\\DesktopPattern\\DesktopPattern.csproj",
+      "projectPath": "C:\\LaurenCDrive\\TL\\Readiness\\Trainings\\RT_Offline_Workflows\\DesktopPattern\\DesktopPattern\\DesktopPattern.csproj",
       "packagesPath": "C:\\Users\\laur8722\\.nuget\\packages\\",
-      "outputPath": "C:\\LaurenCDrive\\TL\\Readiness\\Trainings\\Runtime Brown Bag\\DesktopPattern\\DesktopPattern\\obj\\",
+      "outputPath": "C:\\LaurenCDrive\\TL\\Readiness\\Trainings\\RT_Offline_Workflows\\DesktopPattern\\DesktopPattern\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [

@@ -792,11 +792,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\LaurenCDrive\\TL\\Readiness\\Trainings\\Runtime Brown Bag\\PrePlanned\\PrePlanned\\PrePlanned.csproj",
+      "projectUniqueName": "C:\\LaurenCDrive\\TL\\Readiness\\Trainings\\RT_Offline_Workflows\\PrePlanned\\PrePlanned\\PrePlanned.csproj",
       "projectName": "PrePlanned",
-      "projectPath": "C:\\LaurenCDrive\\TL\\Readiness\\Trainings\\Runtime Brown Bag\\PrePlanned\\PrePlanned\\PrePlanned.csproj",
+      "projectPath": "C:\\LaurenCDrive\\TL\\Readiness\\Trainings\\RT_Offline_Workflows\\PrePlanned\\PrePlanned\\PrePlanned.csproj",
       "packagesPath": "C:\\Users\\laur8722\\.nuget\\packages\\",
-      "outputPath": "C:\\LaurenCDrive\\TL\\Readiness\\Trainings\\Runtime Brown Bag\\PrePlanned\\PrePlanned\\obj\\",
+      "outputPath": "C:\\LaurenCDrive\\TL\\Readiness\\Trainings\\RT_Offline_Workflows\\PrePlanned\\PrePlanned\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [

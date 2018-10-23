@@ -7,10 +7,9 @@
         xmlns:local="clr-namespace:DesktopPattern"
         mc:Ignorable="d"
         Title="MainWindow" Height="525" Width="790">
-    <Window.Resources>
-        <local:MapViewModel x:Key="MapViewModel" />
-    </Window.Resources>
+
     <Grid>
-        <esri:MapView Map="{Binding Map, Source={StaticResource MapViewModel}}" />
+        <esri:MapView x:Name="MyMapView" />
+        <Button Name="OpenMMPK" Content="Open MMPK" Click="OpenMMPK_Click" HorizontalAlignment="Left" VerticalAlignment="Top" />
     </Grid>
 </Window>

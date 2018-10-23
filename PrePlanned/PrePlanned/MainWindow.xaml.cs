@@ -24,6 +24,34 @@ namespace PrePlanned
         public MainWindow()
         {
             InitializeComponent();
+
+            Initialize();
+        }
+
+        public void Initialize()
+        {
+
+        }
+        public void OpenMMPK()
+        {
+            // Mobile map package to open directly from a package or an unpacked folder.
+            MobileMapPackage mobileMapPackage;
+
+            // Check whether the mobile map package supports direct read.
+            bool isDirectReadSupported = await MobileMapPackage.IsDirectReadSupportedAsync(pathToOutputPackage);
+            if (isDirectReadSupported)
+            {
+                // If it does, create the mobile map package directly from the .mmpk file.
+                mobileMapPackage = await MobileMapPackage.OpenAsync(pathToOutputPackage);
+            }
+            else
+            {
+                // Otherwise, unpack the mobile map package file into a directory.
+                await MobileMapPackage.UnpackAsync(pathToOutputPackage, pathToUnpackedPackage);
+
+                // Create the mobile map package from the unpack directory.
+                mobileMapPackage = await MobileMapPackage.OpenAsync(pathToUnpackedPackage);
+            }
         }
 
         // Map initialization logic is contained in MapViewModel.cs
