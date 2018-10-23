@@ -7,3 +7,10 @@ This repo contains samples of the various ArcGIS Runtime SDK for .NET Offline wo
 
 You can find more information on these patterns in their corresponding documentation pages (follow the links above).
 
+## Services Pattern
+
+### On Demand Workflow
+
+### Pre-planned Workflow
+
+## Desktop Pattern
