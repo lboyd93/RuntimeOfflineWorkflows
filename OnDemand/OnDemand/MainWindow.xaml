@@ -10,5 +10,6 @@
     <Grid>
         <esri:MapView x:Name="MyMapView" />
         <Button Name="OnDemand" Content="On Demand workflow" Click="OnDemand_Click" HorizontalAlignment="Left" VerticalAlignment="Top" />
+        <Button Name="OpenPackage" Content="Open Existing Offline Map" Click="OpenPackage_Click" HorizontalAlignment="Right" VerticalAlignment="Top" />
     </Grid>
 </Window>

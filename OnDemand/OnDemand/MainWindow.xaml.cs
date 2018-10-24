@@ -26,6 +26,8 @@ namespace OnDemand
     /// </summary>
     public partial class MainWindow : Window
     {
+        string pathToOutputPackage = @"C:\LaurenCDrive\TL\Readiness\Trainings\RT_Offline_Workflows\OnDemandMap";
+
         public MainWindow()
         {
             InitializeComponent();
@@ -46,18 +48,16 @@ namespace OnDemand
 
         private Envelope GetAreaOfInterest()
         {
-            Envelope area = new Envelope(new MapPoint(-13106757.745708855, 3953831.4127816204, new SpatialReference(102100)), new MapPoint(-12860630.514630707, 4072461.6806801567, new SpatialReference(102100)));
+            Envelope area = new Envelope(new MapPoint(-13003053.745488336, 3990924.367398489, new SpatialReference(102100)), new MapPoint(-12936362.438309608, 4021613.8342549456, new SpatialReference(102100)));
             return area;
         }
         
         private async void GenerateOnDemand()
         {
 
-            string pathToOutputPackage = @"C:\LaurenCDrive\TL\Readiness\Trainings\RT_Offline_Workflows\OnDemandMap";
-
             ArcGISPortal portal = await ArcGISPortal.CreateAsync();
             // Get a web map item using its ID.
-            PortalItem webmapItem = await PortalItem.CreateAsync(portal, "4b923ccea5dd405bbb2a789ad3ac101a");
+            PortalItem webmapItem = await PortalItem.CreateAsync(portal, "dba73588a56d476484b8d0fa1c480c9b");
 
             // Create a map from the web map item.
             Map onlineMap = new Map(webmapItem);
@@ -171,6 +171,19 @@ namespace OnDemand
             var map = offlineMapPackage.Maps.First();
             MyMapView.Map = map;
 
+        }
+
+        private async void OpenPackage_Click(object sender, RoutedEventArgs e)
+        {
+            // Create a mobile map package from an unpacked map package folder.
+            MobileMapPackage offlineMapPackage = await MobileMapPackage.OpenAsync(pathToOutputPackage);
+
+            // Set the title from the package metadata to the UI
+
+
+            // Get the map from the package and set it to the MapView
+            var map = offlineMapPackage.Maps.First();
+            MyMapView.Map = map;
         }
 
         // Map initialization logic is contained in MapViewModel.cs
